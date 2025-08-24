@@ -623,29 +623,29 @@
 # ----------------------------------------
 # class:
 
-# class AnimalINTown:
-#     def __init__(self, name = "unknown", age, sex):  #constructor
-#         self.name = name
-#         self.age = age
-#         self.gender = sex
+class AnimalINTown:
+    def __init__(self, name = "unknown", age, sex):  #constructor
+        self.name = name
+        self.age = age
+        self.gender = sex
 
-#     def information(self):
-#         print(f"{self.name} is {self.age} years old and it is {self.gender}") 
+    def information(self):
+        print(f"{self.name} is {self.age} years old and it is {self.gender}") 
 
-#     def eating_things(self):
-#         print(f"{self.name} eats meat and vegtable")
+    def eating_things(self):
+        print(f"{self.name} eats meat and vegtable")
 
-#     def behavior(self):
-#         print("smooth and good")
+    def behavior(self):
+        print("smooth and good")
 
     
-# third_sample = AnimalINTown("fandogh", 2, "boy")
-# third_sample.information()
-# print(third_sample.gender)
+third_sample = AnimalINTown("fandogh", 2, "boy")
+third_sample.information()
+print(third_sample.gender)
 
-# first_sample = AnimalINTown("tedy", 9, "girl")
-# first_sample.eating_things()
-# print(first_sample.age)
+first_sample = AnimalINTown("tedy", 9, "girl")
+first_sample.eating_things()
+print(first_sample.age)
 
 # second_sample = AnimalINTown()
 # second_sample.behavior()
